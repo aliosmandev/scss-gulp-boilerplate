@@ -19,8 +19,8 @@ gulp.task("sass", () =>
 gulp.task("watch", () => {
   browserSync.init({
     server: "./",
-    startPath: "/src/index.html",
+    startPath: "/index.html",
   });
   gulp.watch("src/scss/**/*.scss", gulp.series("sass"));
-  gulp.watch("src/*.html").on("change", browserSync.reload);
+  gulp.watch("*.html").on("change", browserSync.reload);
 });
