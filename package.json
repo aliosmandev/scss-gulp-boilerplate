@@ -1,0 +1,17 @@
+{
+  "name": "scss-gulp-boilerplate",
+  "source": "src/scss/main.scss",
+  "scripts": {
+    "build": "gulp sass",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "saas": "^1.0.0"
+  }
+}
